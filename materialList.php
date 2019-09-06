@@ -253,6 +253,7 @@ $val=json_decode($status);
             $("#tbd1").html("");
             var obj = JSON.parse(yt);
             datakk=new Array();
+            console.log(JSON.stringify(obj))
             for(var i = 0; i < obj.LIST.length; i++)
             {
 

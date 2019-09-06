@@ -168,7 +168,7 @@ if(isset($_SESSION['user_names']))
             function submit_datas() {
 
                 console.log($("#main").serialize());
-                return false;
+                // return false;
 
 
                 $.get("new_material.php", $("#main").serialize(), function(kj) {

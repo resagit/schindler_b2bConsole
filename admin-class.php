@@ -1,9 +1,9 @@
 <?php
 
 $paths = "";
-$ip="192.168.1.22:8080/ResagitB2B";
+$ip="192.168.1.23:8080/ResagitB2B";
 //$ip="13.232.126.58:8080/ResagitB2B";
-// $ip="52.66.214.215:8080/AparnaResagitB2B";
+// $ip="52.66.214.215:8080/ResagitB2B_Schindler";
 
 /** Include the database file */
 error_reporting(0);

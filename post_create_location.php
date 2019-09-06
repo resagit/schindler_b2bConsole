@@ -37,6 +37,8 @@ for($i=0;$i<$count;$i++)
 }
 //print_r($joinarray);
 $main_array=Array("wareHouseID"=>"$warehouseid","username"=>"$userName","usertype"=>"$user_type","password"=>"$pass","locationItems"=>$joinarray);
+
+
 //array_push($main_array['bomItems'],$joinarray);
 //$main_array=Array("code"=>$code,"description"=>"$description","companyID"=>"$clientId","price"=>"$price","username"=>"$userName","usertype"=>"$user_type","password"=>"$pass","bomItems" =>Array("materialID"=>Array("$materialItemID"),"quantity"=>Array("$quantity"),"uom"=>Array("$uom"),"price"=>Array("$perUnitPrice")));
 $url="http://".$ip."/createWarehouseLocationFromUI";
